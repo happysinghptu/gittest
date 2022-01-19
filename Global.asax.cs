@@ -12,6 +12,7 @@ namespace gittest
     {
         protected void Application_Start()
         {
+        //test
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
